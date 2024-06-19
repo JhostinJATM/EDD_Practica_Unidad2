@@ -49,7 +49,7 @@ def lista_persona_busqueda(tipo_busqueda, atributo, valor_busqueda):
     print(f"Valor a buscar:{valor_busqueda}") #Brienne
     
     diccionario_busqueda = {
-        "1": uc._list().busqueda_combinada(atributo, valor_busqueda),
+        "1": uc._list().busqueda_lineal_binaria_atributo(atributo, valor_busqueda),
         "2": uc._list().busqueda_binaria(atributo, valor_busqueda),
     }
     lista_nueva = diccionario_busqueda[tipo_busqueda]

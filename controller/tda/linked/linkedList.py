@@ -75,7 +75,7 @@ class LinkedList(object):
             self.__addLast__(data)
         else:
             node_preview = self.getNode(pos-1)
-            node_last =  node_preview.__next #self.__getNode__(pos)
+            node_last =  node_preview.__next
             node = Node(data, node_last)
             node_preview._next = node
             self.__length += 1
@@ -239,7 +239,6 @@ class LinkedList(object):
         return array
     
     def sort(self, type):
-        # print(f"El type: {type}")
         if self.isEmpty:
             raise LinkedEmpty('Linked empty')
         else:
@@ -247,10 +246,8 @@ class LinkedList(object):
             if isinstance(array[0], Number) or isinstance(array[0], str):
                 order = Insercion()
                 if type == 1:
-                    # array =  self.sort_burbuja_number_ascendent(array)
                     array = order.sort_primitive_ascendent(array)
                 else:
-                    # array =  self.sort_burbuja_number_descendent(array)
                     array = order.sort_primitive_decendent(array)
             self.toList(array)
 
@@ -455,7 +452,7 @@ class LinkedList(object):
 
     #! Busqueda Lineal Binaria Numeros
     
-    def busqueda_lineal_numeric(self, valor):
+    def busqueda_lineal_binaria_numeric(self, valor):
         lista_resultante = LinkedList()
 
         if self.isEmpty:
@@ -500,7 +497,7 @@ class LinkedList(object):
     
     #! Busqueda Lineal Binaria por Atributo
 
-    def busqueda_lineal_atributo(self, atributo, valor):
+    def busqueda_lineal_binaria_atributo(self, atributo, valor):
 
         lista_resultante = LinkedList()
 

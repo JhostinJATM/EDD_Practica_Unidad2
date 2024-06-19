@@ -13401,3 +13401,345 @@
 
 
 05:37:40 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 17:37:40] "GET /usuarios/shell/_apellido_usuario/1 HTTP/1.1" 200 -
+
+
+06:30:12 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+
+
+06:30:12 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+
+
+06:30:12 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+06:30:12 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+06:30:12 PM: INFO [_internal.py:97]  * Debugger PIN: 144-847-747
+
+
+06:30:15 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 18:30:15] "GET /usuarios HTTP/1.1" 200 -
+
+
+06:30:16 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 18:30:16] "[36mGET /static/imgs/header.png HTTP/1.1[0m" 304 -
+
+
+06:31:49 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 18:31:49] "GET /usuarios/quick/_nombre_usuario/1 HTTP/1.1" 200 -
+
+
+06:32:24 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 18:32:24] "GET /usuarios/shell/_edad/2 HTTP/1.1" 200 -
+
+
+06:33:12 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 18:33:12] "GET /usuarios/shell/_nombre_usuario/2 HTTP/1.1" 200 -
+
+
+06:34:04 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 18:34:04] "[35m[1mGET /usuarios/busqueda/2/_nombre_usuario/Marie HTTP/1.1[0m" 500 -
+
+
+06:35:19 PM: INFO [_internal.py:97]  * Detected change in 'C:\\Users\\Jatm\\Desktop\\Practica2_EDD\\routes\\router.py', reloading
+
+
+06:35:20 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+06:35:20 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+06:35:20 PM: INFO [_internal.py:97]  * Debugger PIN: 144-847-747
+
+
+06:35:37 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 18:35:37] "GET /usuarios/busqueda/2/_nombre_usuario/Marie HTTP/1.1" 200 -
+
+
+06:36:02 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 18:36:02] "GET /usuarios/busqueda/1/_nombre_usuario/Marie HTTP/1.1" 200 -
+
+
+06:36:59 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 18:36:59] "GET /usuarios/busqueda/2/_apellido_usuario/Brienne HTTP/1.1" 200 -
+
+
+06:37:47 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 18:37:47] "GET /usuarios/busqueda/1/_apellido_usuario/Brienne HTTP/1.1" 200 -
+
+
+06:38:01 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 18:38:01] "[35m[1mGET /usuarios/busqueda/1/_apellido_usuario/30 HTTP/1.1[0m" 500 -
+
+
+06:38:02 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 18:38:02] "GET /usuarios/busqueda/1/_edad/30 HTTP/1.1" 200 -
+
+
+06:38:12 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 18:38:12] "GET /usuarios/busqueda/1/_edad/25 HTTP/1.1" 200 -
+
+
+06:39:07 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 18:39:07] "GET /usuarios HTTP/1.1" 200 -
+
+
+06:39:08 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 18:39:08] "[36mGET /static/imgs/header.png HTTP/1.1[0m" 304 -
+
+
+06:39:13 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 18:39:13] "GET /usuarios/busqueda/1/_apellido_usuario/Brienne HTTP/1.1" 200 -
+
+
+06:42:09 PM: INFO [_internal.py:97]  * Detected change in 'C:\\Users\\Jatm\\Desktop\\Practica2_EDD\\view\\pruebas_ordenamiento.py', reloading
+
+
+06:42:09 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+06:42:09 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+06:42:09 PM: INFO [_internal.py:97]  * Debugger PIN: 144-847-747
+
+
+06:43:41 PM: INFO [_internal.py:97]  * Detected change in 'C:\\Users\\Jatm\\Desktop\\Practica2_EDD\\view\\pruebas_busqueda.py', reloading
+
+
+06:43:41 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+06:43:41 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+06:43:41 PM: INFO [_internal.py:97]  * Debugger PIN: 144-847-747
+
+
+06:45:26 PM: INFO [_internal.py:97]  * Detected change in 'C:\\Users\\Jatm\\Desktop\\Practica2_EDD\\view\\pruebas_busqueda.py', reloading
+
+
+06:45:26 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+06:45:27 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+06:45:27 PM: INFO [_internal.py:97]  * Debugger PIN: 144-847-747
+
+
+06:46:03 PM: INFO [_internal.py:97]  * Detected change in 'C:\\Users\\Jatm\\Desktop\\Practica2_EDD\\view\\pruebas_busqueda.py', reloading
+
+
+06:46:03 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+06:46:03 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+06:46:03 PM: INFO [_internal.py:97]  * Debugger PIN: 144-847-747
+
+
+06:47:54 PM: INFO [_internal.py:97]  * Detected change in 'C:\\Users\\Jatm\\Desktop\\Practica2_EDD\\view\\pruebas_busqueda.py', reloading
+
+
+06:47:54 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+06:47:55 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+06:47:55 PM: INFO [_internal.py:97]  * Debugger PIN: 144-847-747
+
+
+06:51:15 PM: INFO [_internal.py:97]  * Detected change in 'C:\\Users\\Jatm\\Desktop\\Practica2_EDD\\view\\pruebas_busqueda.py', reloading
+
+
+06:51:15 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+06:51:15 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+06:51:15 PM: INFO [_internal.py:97]  * Debugger PIN: 144-847-747
+
+
+06:51:52 PM: INFO [_internal.py:97]  * Detected change in 'C:\\Users\\Jatm\\Desktop\\Practica2_EDD\\view\\pruebas_ordenamiento.py', reloading
+
+
+06:51:52 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+06:51:53 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+06:51:53 PM: INFO [_internal.py:97]  * Debugger PIN: 144-847-747
+
+
+06:52:37 PM: INFO [_internal.py:97]  * Detected change in 'C:\\Users\\Jatm\\Desktop\\Practica2_EDD\\view\\pruebas_busqueda.py', reloading
+
+
+06:52:37 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+06:52:37 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+06:52:37 PM: INFO [_internal.py:97]  * Debugger PIN: 144-847-747
+
+
+06:53:31 PM: INFO [_internal.py:97]  * Detected change in 'C:\\Users\\Jatm\\Desktop\\Practica2_EDD\\view\\pruebas_busqueda.py', reloading
+
+
+06:53:32 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+06:53:32 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+06:53:32 PM: INFO [_internal.py:97]  * Debugger PIN: 144-847-747
+
+
+06:53:47 PM: INFO [_internal.py:97]  * Detected change in 'C:\\Users\\Jatm\\Desktop\\Practica2_EDD\\view\\pruebas_ordenamiento.py', reloading
+
+
+06:53:47 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+06:53:47 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+06:53:47 PM: INFO [_internal.py:97]  * Debugger PIN: 144-847-747
+
+
+08:44:10 PM: INFO [_internal.py:97] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+
+
+08:44:10 PM: INFO [_internal.py:97] [33mPress CTRL+C to quit[0m
+
+
+08:44:10 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+08:44:11 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+08:44:11 PM: INFO [_internal.py:97]  * Debugger PIN: 359-705-424
+
+
+08:44:18 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:44:18] "GET /usuarios HTTP/1.1" 200 -
+
+
+08:44:19 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:44:19] "[36mGET /static/imgs/header.png HTTP/1.1[0m" 304 -
+
+
+08:44:51 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:44:51] "GET /usuarios/shell/_nombre_usuario/2 HTTP/1.1" 200 -
+
+
+08:45:02 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:45:02] "GET /usuarios/shell/_nombre_usuario/1 HTTP/1.1" 200 -
+
+
+08:45:18 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:45:18] "GET /usuarios/merge/_apellido_usuario/2 HTTP/1.1" 200 -
+
+
+08:45:30 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:45:30] "GET /usuarios/quick/_edad/1 HTTP/1.1" 200 -
+
+
+08:45:42 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:45:42] "GET /usuarios/merge/_email/2 HTTP/1.1" 200 -
+
+
+08:47:13 PM: INFO [_internal.py:97]  * Detected change in 'C:\\Users\\Jatm\\Desktop\\Practica2_EDD\\model\\usuario.py', reloading
+
+
+08:47:14 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+08:47:14 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+08:47:14 PM: INFO [_internal.py:97]  * Debugger PIN: 359-705-424
+
+
+08:47:37 PM: INFO [_internal.py:97]  * Detected change in 'C:\\Users\\Jatm\\Desktop\\Practica2_EDD\\view\\pruebas_ordenamiento.py', reloading
+
+
+08:47:37 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+08:47:38 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+08:47:38 PM: INFO [_internal.py:97]  * Debugger PIN: 359-705-424
+
+
+08:52:23 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:52:23] "GET /usuarios HTTP/1.1" 200 -
+
+
+08:52:24 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:52:24] "[36mGET /static/imgs/header.png HTTP/1.1[0m" 304 -
+
+
+08:52:43 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:52:43] "GET /usuarios/busqueda/2/_nombre_usuario/Marie HTTP/1.1" 200 -
+
+
+08:52:53 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:52:53] "GET /usuarios/busqueda/1/_nombre_usuario/Marie HTTP/1.1" 200 -
+
+
+08:53:02 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:53:02] "GET /usuarios/shell/_apellido_usuario/1 HTTP/1.1" 200 -
+
+
+08:53:50 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:53:50] "GET /usuarios/busqueda/2/_apellido_usuario/Brienne HTTP/1.1" 200 -
+
+
+08:53:57 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:53:57] "GET /usuarios/busqueda/1/_apellido_usuario/Brienne HTTP/1.1" 200 -
+
+
+08:54:07 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:54:07] "GET /usuarios/busqueda/2/_edad/25 HTTP/1.1" 200 -
+
+
+08:54:10 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:54:10] "GET /usuarios/busqueda/1/_edad/25 HTTP/1.1" 200 -
+
+
+08:54:26 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:54:26] "GET /usuarios/busqueda/2/_email/sylvie.dufour@example.com HTTP/1.1" 200 -
+
+
+08:54:29 PM: INFO [_internal.py:97] 127.0.0.1 - - [18/Jun/2024 20:54:29] "GET /usuarios/busqueda/1/_email/sylvie.dufour@example.com HTTP/1.1" 200 -
+
+
+08:56:57 PM: INFO [_internal.py:97]  * Detected change in 'C:\\Users\\Jatm\\Desktop\\Practica2_EDD\\view\\pruebas_busqueda.py', reloading
+
+
+08:56:57 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+08:56:58 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+08:56:58 PM: INFO [_internal.py:97]  * Debugger PIN: 359-705-424
+
+
+08:57:26 PM: INFO [_internal.py:97]  * Detected change in 'C:\\Users\\Jatm\\Desktop\\Practica2_EDD\\view\\pruebas_busqueda.py', reloading
+
+
+08:57:26 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+08:57:27 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+08:57:27 PM: INFO [_internal.py:97]  * Debugger PIN: 359-705-424
+
+
+09:25:26 PM: INFO [_internal.py:97]  * Detected change in 'C:\\Users\\Jatm\\Desktop\\Practica2_EDD\\routes\\router.py', reloading
+
+
+09:25:26 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+09:25:27 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+09:25:27 PM: INFO [_internal.py:97]  * Debugger PIN: 359-705-424
+
+
+09:25:42 PM: INFO [_internal.py:97]  * Detected change in 'C:\\Users\\Jatm\\Desktop\\Practica2_EDD\\view\\pruebas_busqueda.py', reloading
+
+
+09:25:42 PM: INFO [_internal.py:97]  * Restarting with stat
+
+
+09:25:43 PM: WARNING [_internal.py:97]  * Debugger is active!
+
+
+09:25:43 PM: INFO [_internal.py:97]  * Debugger PIN: 359-705-424
